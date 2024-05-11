@@ -18,3 +18,46 @@
 .callout[data-callout-metadata~="sans-contenu"] > .callout-content {
     display: none;
 }
+
+/********************************************/
+/* Change callout opacity. */
+/********************************************/
+.callout[data-callout-metadata~="opacity-10"] {
+    --mbr-callout-opacity: 0.1;
+}
+
+.callout[data-callout-metadata~="opacity-20"] {
+    --mbr-callout-opacity: 0.2;
+}
+
+.callout[data-callout-metadata~="opacity-30"] {
+    --mbr-callout-opacity: 0.3;
+}
+
+.callout[data-callout-metadata~="opacity-40"] {
+    --mbr-callout-opacity: 0.4;
+}
+
+.callout[data-callout-metadata~="opacity-50"] {
+    --mbr-callout-opacity: 0.5;
+}
+
+.callout[data-callout-metadata~="opacity-60"] {
+    --mbr-callout-opacity: 0.6;
+}
+
+.callout[data-callout-metadata~="opacity-70"] {
+    --mbr-callout-opacity: 0.7;
+}
+
+.callout[data-callout-metadata~="opacity-80"] {
+    --mbr-callout-opacity: 0.8;
+}
+
+.callout[data-callout-metadata~="opacity-90"] {
+    --mbr-callout-opacity: 0.9;
+}
+
+.callout[data-callout-metadata~="opacity-100"] {
+    --mbr-callout-opacity: 1.0;
+}
