@@ -1,0 +1,175 @@
+/********************************************/
+/* LANGUAGE
+    Each css selectors (at least, most) are made to be used with :
+    - English
+    - Français
+ */
+/********************************************/
+
+/********************************************/
+/* STRUCTURE
+    Each css block related to one color is organize as following :
+    - Callout icon,
+    - callout title,
+    - callout content.
+ */
+/********************************************/
+
+/********************************************/
+/* White colored text and icon */
+/********************************************/
+.callout[data-callout-metadata~="white"] > .callout-title > .callout-icon > svg,
+.callout[data-callout-metadata~="blanc"] > .callout-title > .callout-icon > svg {
+    stroke: var(--mbr-white-hex);
+}
+
+.callout[data-callout-metadata~="white"] > .callout-title > .callout-title-inner,
+.callout[data-callout-metadata~="blanc"] > .callout-title > .callout-title-inner {
+    --callout-title-color: var(--mbr-white-hex);
+}
+
+.callout[data-callout-metadata~="white"] > .callout-content,
+.callout[data-callout-metadata~="blanc"] > .callout-content {
+    color: var(--mbr-white-hex);
+}
+
+/********************************************/
+/* Black colored text and icon */
+/********************************************/
+.callout[data-callout-metadata~="black"] > .callout-title > .callout-icon > svg,
+.callout[data-callout-metadata~="noir"] > .callout-title > .callout-icon > svg {
+    stroke: var(--mbr-black-hex);
+}
+
+.callout[data-callout-metadata~="black"] > .callout-title > .callout-title-inner,
+.callout[data-callout-metadata~="noir"] > .callout-title > .callout-title-inner {
+    --callout-title-color: var(--mbr-black-hex);
+}
+
+.callout[data-callout-metadata~="black"] > .callout-content,
+.callout[data-callout-metadata~="noir"] > .callout-content {
+    color: var(--mbr-black-hex);
+}
+
+/********************************************/
+/* Red colored text and icon */
+/********************************************/
+.callout[data-callout-metadata~="red"] > .callout-title > .callout-icon > svg,
+.callout[data-callout-metadata~="rouge"] > .callout-title > .callout-icon > svg {
+    stroke: var(--mbr-red-hex);
+}
+
+.callout[data-callout-metadata~="red"] > .callout-title > .callout-title-inner,
+.callout[data-callout-metadata~="rouge"] > .callout-title > .callout-title-inner {
+    --callout-title-color: var(--mbr-red-hex);
+}
+
+.callout[data-callout-metadata~="red"] > .callout-content,
+.callout[data-callout-metadata~="rouge"] > .callout-content {
+    color: var(--mbr-red-hex);
+}
+
+/********************************************/
+/* Orange colored text and icon */
+/********************************************/
+.callout[data-callout-metadata~="orange"] > .callout-title > .callout-icon > svg {
+    stroke: var(--mbr-orange-hex);
+}
+
+.callout[data-callout-metadata~="orange"] > .callout-title > .callout-title-inner {
+    --callout-title-color: var(--mbr-orange-hex);
+}
+
+.callout[data-callout-metadata~="orange"] > .callout-content {
+    color: var(--mbr-orange-hex);
+}
+
+/********************************************/
+/* Yellow colored text and icon */
+/********************************************/
+.callout[data-callout-metadata~="yellow"] > .callout-title > .callout-icon > svg,
+.callout[data-callout-metadata~="jaune"] > .callout-title > .callout-icon > svg {
+    stroke: var(--mbr-yellow-hex);
+}
+
+.callout[data-callout-metadata~="yellow"] > .callout-title > .callout-title-inner,
+.callout[data-callout-metadata~="jaune"] > .callout-title > .callout-title-inner {
+    --callout-title-color: var(--mbr-yellow-hex);
+}
+
+.callout[data-callout-metadata~="yellow"] > .callout-content,
+.callout[data-callout-metadata~="jaune"] > .callout-content {
+    color: var(--mbr-yellow-hex);
+}
+
+/********************************************/
+/* Green colored text and icon */
+/********************************************/
+.callout[data-callout-metadata~="green"] > .callout-title > .callout-icon > svg,
+.callout[data-callout-metadata~="vert"] > .callout-title > .callout-icon > svg {
+    stroke: var(--mbr-green-hex);
+}
+
+.callout[data-callout-metadata~="green"] > .callout-title > .callout-title-inner,
+.callout[data-callout-metadata~="vert"] > .callout-title > .callout-title-inner {
+    --callout-title-color: var(--mbr-green-hex);
+}
+
+.callout[data-callout-metadata~="green"] > .callout-content,
+.callout[data-callout-metadata~="vert"] > .callout-content {
+    color: var(--mbr-green-hex);
+}
+
+/********************************************/
+/* Blue colored text and icon */
+/********************************************/
+.callout[data-callout-metadata~="blue"] > .callout-title > .callout-icon > svg,
+.callout[data-callout-metadata~="bleu"] > .callout-title > .callout-icon > svg {
+    stroke: var(--mbr-blue-hex);
+}
+
+.callout[data-callout-metadata~="blue"] > .callout-title > .callout-title-inner,
+.callout[data-callout-metadata~="bleu"] > .callout-title > .callout-title-inner {
+    --callout-title-color: var(--mbr-blue-hex);
+}
+
+.callout[data-callout-metadata~="blue"] > .callout-content,
+.callout[data-callout-metadata~="bleu"] > .callout-content {
+    color: var(--mbr-blue-hex);
+}
+
+/********************************************/
+/* Purple colored text and icon */
+/********************************************/
+.callout[data-callout-metadata~="purple"] > .callout-title > .callout-icon > svg,
+.callout[data-callout-metadata~="violet"] > .callout-title > .callout-icon > svg {
+    stroke: var(--mbr-purple-hex);
+}
+
+.callout[data-callout-metadata~="purple"] > .callout-title > .callout-title-inner,
+.callout[data-callout-metadata~="violet"] > .callout-title > .callout-title-inner {
+    --callout-title-color: var(--mbr-purple-hex);
+}
+
+.callout[data-callout-metadata~="purple"] > .callout-content,
+.callout[data-callout-metadata~="violet"] > .callout-content {
+    color: var(--mbr-purple-hex);
+}
+
+/********************************************/
+/* Pink colored text and icon */
+/********************************************/
+.callout[data-callout-metadata~="pink"] > .callout-title > .callout-icon > svg,
+.callout[data-callout-metadata~="rose"] > .callout-title > .callout-icon > svg {
+    stroke: var(--mbr-pink-hex);
+}
+
+.callout[data-callout-metadata~="pink"] > .callout-title > .callout-title-inner,
+.callout[data-callout-metadata~="rose"] > .callout-title > .callout-title-inner {
+    --callout-title-color: var(--mbr-pink-hex);
+}
+
+.callout[data-callout-metadata~="pink"] > .callout-content,
+.callout[data-callout-metadata~="rose"] > .callout-content {
+    color: var(--mbr-pink-hex);
+}
