@@ -26,6 +26,11 @@
     display: none;
 }
 
+    .callout[data-callout-metadata~="no-header"] > .callout-content,
+    .callout[data-callout-metadata~="sans-en-tete"] > .callout-content {
+        border-top: none;
+    }
+
 .callout[data-callout-metadata~="no-icon"] > .callout-title > .callout-icon,
 .callout[data-callout-metadata~="sans-icone"] > .callout-title > .callout-icon {
     display: none;
