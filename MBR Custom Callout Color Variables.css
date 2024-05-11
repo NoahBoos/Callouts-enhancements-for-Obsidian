@@ -1,0 +1,60 @@
+body {
+    /********************************************/
+    /* 
+        Global Variables 
+        Variables générales
+    */
+    /********************************************/ 
+    --mbr-white-hex: #FFFFFF;
+    --mbr-white-rgb: 255, 255, 255;
+    --mbr-black-hex: #000000;
+    --mbr-black-rgb: 0, 0, 0;
+
+    --mbr-callout-opacity: 0.1;
+}
+
+body.theme-light {
+    /********************************************/
+    /* 
+        Light Theme Variables
+        Variables du thème clair
+    */
+    /********************************************/    
+    --mbr-red-hex: #e93147;
+    --mbr-red-rgb: 233, 49, 71;
+    --mbr-orange-hex: #ec7500;
+    --mbr-orange-rgb: 236, 117, 0;
+    --mbr-yellow-hex: #e0ac00;
+    --mbr-yellow-rgb: 224, 172, 0;
+    --mbr-green-hex: #08b94e;
+    --mbr-green-rgb: 8, 185, 78;
+    --mbr-blue-hex: #086ddd;
+    --mbr-blue-rgb: 8, 109, 221;
+    --mbr-purple-hex: #7852ee;
+    --mbr-purple-rgb: 120, 82, 238;
+    --mbr-pink-hex: #d53984;
+    --mbr-pink-rgb: 213, 57, 132;
+}
+
+body.theme-dark {
+    /********************************************/
+    /* 
+        Dark Theme Variables 
+        Variables du thème sombre
+    */
+    /********************************************/
+    --mbr-red-hex: #fb464c;
+    --mbr-red-rgb: 251, 70, 76;
+    --mbr-orange-hex: #e9973f;
+    --mbr-orange-rgb: 233, 151, 63;
+    --mbr-yellow-hex: #e0de71;
+    --mbr-yellow-rgb: 224, 222, 113;
+    --mbr-green-hex: #44cf6e;
+    --mbr-green-rgb: 68, 207, 110;
+    --mbr-blue-hex: #027aff;
+    --mbr-blue-rgb: 2, 122, 255;
+    --mbr-purple-hex: #a882ff;
+    --mbr-purple-rgb: 168, 130, 255;
+    --mbr-pink-hex: #fa99cd;
+    --mbr-pink-rgb: 250, 153, 205;
+}
