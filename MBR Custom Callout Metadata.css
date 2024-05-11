@@ -1,0 +1,20 @@
+/********************************************/
+/* LANGUAGE
+    Each css selectors (at least, most) are made to be used with :
+    - English
+    - Français
+ */
+/********************************************/
+
+/********************************************/
+/* Delete either the header or the content, both if you'd like to. */
+/********************************************/
+.callout[data-callout-metadata~="no-header"] > .callout-title,
+.callout[data-callout-metadata~="sans-en-tete"] > .callout-title {
+    display: none;
+}
+
+.callout[data-callout-metadata~="no-content"] > .callout-content,
+.callout[data-callout-metadata~="sans-contenu"] > .callout-content {
+    display: none;
+}
