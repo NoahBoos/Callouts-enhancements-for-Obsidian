@@ -1,0 +1,26 @@
+/********************************************/
+/* LANGUAGE
+    Each css selectors (at least, most) are made to be used with :
+    - English
+    - Français
+ */
+/********************************************/
+
+/********************************************/
+/* Border behaviour : color change depending on which theme is enabled (light or dark). */
+/********************************************/
+body.theme-light .callout {
+    border-color: var(--mbr-black-hex);
+}
+
+body.theme-light .callout > .callout-content {
+    border-top-color: var(--mbr-black-hex);
+}
+
+body.theme-dark .callout {
+    border-color: var(--mbr-white-hex);
+}
+
+body.theme-dark .callout > .callout-content {
+    border-top-color: var(--mbr-white-hex);
+}

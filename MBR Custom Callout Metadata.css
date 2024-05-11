@@ -7,10 +7,15 @@
 /********************************************/
 
 /********************************************/
-/* Delete either the header or the content, both if you'd like to. */
+/* Delete either the header, the header icon or the content.*/
 /********************************************/
 .callout[data-callout-metadata~="no-header"] > .callout-title,
 .callout[data-callout-metadata~="sans-en-tete"] > .callout-title {
+    display: none;
+}
+
+.callout[data-callout-metadata~="no-icon"] > .callout-title > .callout-icon,
+.callout[data-callout-metadata~="sans-icone"] > .callout-title > .callout-icon {
     display: none;
 }
 
