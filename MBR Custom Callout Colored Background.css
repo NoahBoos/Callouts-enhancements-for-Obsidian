@@ -1,0 +1,77 @@
+/********************************************/
+/* LANGUAGE
+    Each css selectors (at least, most) are made to be used with :
+    - English
+    - Français
+ */
+/********************************************/
+
+/********************************************/
+/* White background */
+/********************************************/
+.callout[data-callout-metadata~="bg-white"],
+.callout[data-callout-metadata~="bg-blanc"] {
+    background-color: rgba(var(--mbr-white-rgb), var(--mbr-callout-opacity));
+}
+/********************************************/
+/* Black background */
+/********************************************/
+.callout[data-callout-metadata~="bg-black"],
+.callout[data-callout-metadata~="bg-noir"] {
+    background-color: rgba(var(--mbr-black-rgb), var(--mbr-callout-opacity));
+}
+
+/********************************************/
+/* Red background */
+/********************************************/
+.callout[data-callout-metadata~="bg-red"],
+.callout[data-callout-metadata~="bg-rouge"] {
+    background-color: rgba(var(--mbr-red-rgb), var(--mbr-callout-opacity));
+}
+
+/********************************************/
+/* Orange background */
+/********************************************/
+.callout[data-callout-metadata~="bg-orange"] {
+    background-color: rgba(var(--mbr-orange-rgb), var(--mbr-callout-opacity));
+}
+
+/********************************************/
+/* Yellow background */
+/********************************************/
+.callout[data-callout-metadata~="bg-yellow"],
+.callout[data-callout-metadata~="bg-jaune"] {
+    background-color: rgba(var(--mbr-yellow-rgb), var(--mbr-callout-opacity));
+}
+
+/********************************************/
+/* Green background */
+/********************************************/
+.callout[data-callout-metadata~="bg-green"],
+.callout[data-callout-metadata~="bg-vert"] {
+    background-color: rgba(var(--mbr-green-rgb), var(--mbr-callout-opacity));
+}
+
+/********************************************/
+/* Blue background */
+/********************************************/
+.callout[data-callout-metadata~="bg-blue"],
+.callout[data-callout-metadata~="bg-bleu"] {
+    background-color: rgba(var(--mbr-blue-rgb), var(--mbr-callout-opacity));
+}
+
+/********************************************/
+/* Purple background */
+/********************************************/
+.callout[data-callout-metadata~="bg-purple"],
+.callout[data-callout-metadata~="bg-violet"] {
+    background-color: rgba(var(--mbr-purple-rgb), var(--mbr-callout-opacity));
+}
+
+/********************************************/
+/* Pink background */
+/********************************************/
+.callout[data-callout-metadata~="bg-pink"],
+.callout[data-callout-metadata~="bg-rose"] {
+    background-color: rgba(var(--mbr-pink-rgb), var(--mbr-callout-opacity));
+}
