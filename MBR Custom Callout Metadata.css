@@ -83,3 +83,22 @@
 .callout[data-callout-metadata~="opacity-100"] {
     --mbr-callout-opacity: 1.0;
 }
+
+/********************************************/ 
+/* Change text position */ 
+/********************************************/
+.callout[data-callout-metadata~="text-right"] p {
+    text-align: right;
+}
+
+.callout[data-callout-metadata~="text-left"] p {
+    text-align: left;
+}
+
+.callout[data-callout-metadata~="text-justify"] p {
+    text-align: justify;
+}
+
+.callout[data-callout-metadata~="text-center"] p {
+    text-align: center;
+}
