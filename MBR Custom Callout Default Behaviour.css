@@ -36,3 +36,13 @@ body.theme-dark .callout {
 body.theme-dark .callout > .callout-content {
     border-top-color: var(--mbr-white-hex);
 }
+
+/********************************************/
+/* Change the way list are display in callout by removing the inner padding and restricting their width by 90% of the callout width. */
+/********************************************/
+.callout  > .callout-content > ul, .callout > .callout-content > ol {
+    padding: 0px 0px;
+    & li {
+        width: 90%;
+    }
+}
